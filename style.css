@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+html,body,.box{
+	width:100%;
+	height:100%;
+}
+body{
+	background:pink;
+}
+.product{
+	width: 100%;	
+	margin: 0 auto;
+	height:6rem;
+	display: -webkit-flex;
+	position: relative;
+}
+.product img{
+	width: 3rem;
+	height: 3rem;
+	display: inline-block;
+	position: absolute;
+	left: 1rem;
+	top:.5rem;
+}
+.product p{
+	color: #666;
+	height: 5rem;
+	line-height: 5rem;
+	font-size: .8rem;
+	position: absolute;
+	left: .5rem;
+	top:2rem;
+}
+.product h3{
+	
+}
+.product h4{
+	
+	font-size: .8rem;
+	position: absolute;
+	left: 45%;
+	top:1rem;
+	font-weight: normal;
+}
+.product h5{	
+	font-size: .8rem;
+	position: absolute;
+	left: 45%;
+	top:3rem;
+	font-weight: normal;
+}
+.jie{
+	width: 5rem;
+	height: 5rem;
+	position: absolute;
+	right: 1rem;
+	top:0rem;
+}
+.left{
+	width: 2rem;
+	height: 5rem;
+}
+.left input{
+	width: 2rem;
+	height: 5rem;
+	text-align: center;
+	border: none;
+	background:pink;
+}
+.right{
+	width: 3rem;
+	height: 5rem;
+	position: absolute;
+	right: 0;
+	top:0;
+}
+.up{
+	width:0px;
+	height:0px;
+	border:15px solid transparent;
+	margin:8px auto;
+	border-bottom-color: #999;
+	font-size:0;
+	position: absolute;
+	right: 10%;
+	top:0;
+}
+.down{
+	width:0px;
+	height: 0px;
+	border: 15px solid transparent;
+	border-top-color: #999;
+	font-size: 0;
+	margin:5px auto;
+	position: absolute;
+	right: 10%;
+	top:50%;
+}
